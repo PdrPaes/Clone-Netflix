@@ -1,19 +1,40 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Tmdb from './Tmdb';
+import MovieRow from './components/MovieRow';
+import './App.css';
+import FeaturedMovie from './components/FeaturedMovie';
 
 export default () => {
 
-  useEffect(()=>{
+  const[movieList, setMovieList] = useState([]);
+  const [featuredData, setFeaturedData] = useState(null);
+
+  useEffect(() => {
     const loadAll = async () => {
       // Pegando a lista total
       let list = await Tmdb.getHomeList();
-      console.log(list);
+      setMovieList(list);
+
+      // Pegando o Featured
+      
     }
 
     loadAll();
   }, []);
 
   return (
-    <div>Hello World no React! </div>
-  )
+    <div className="page">
+
+      {featuredData &&
+        <FeaturedMovie item={featuredData} /> 
+      }
+
+      <section className="lists">
+        {movieList.map((item, key)=>(
+          <MovieRow key={key} title={item.title} items={item.items} />
+        ))}
+      </section>
+    </div>
+  );
 }
+
