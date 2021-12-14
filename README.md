@@ -15,11 +15,11 @@ Apenas o Node instalado na máquina.
 
 ### 🔧 Instalação
 
-1 - Abra o projeto utilizando o vscode
-2 - Abra o terminal (PowerShell)
-3 - Instale o node utilizando o comando "npm install" (caso já possua, desconsidere este procedimento)
-4 - Dê inicio ao servidor local, utilizando o comando "npm start"
-5 - Teste a Interface e diga não a Pirataria!
+* 1 - Abra o projeto utilizando o vscode
+* 2 - Abra o terminal (PowerShell) 
+* 3 - Instale o node utilizando o comando "npm install" (caso já possua, desconsidere este procedimento)
+* 4 - Dê inicio ao servidor local, utilizando o comando "npm start"
+* 5 - Teste a Interface e diga não a Pirataria!
 
 ## 🛠️ Construído com
 
