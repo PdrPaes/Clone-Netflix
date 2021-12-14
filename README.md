@@ -23,20 +23,21 @@ Apenas o Node instalado na máquina.
 
 ## 🛠️ Construído com
 
-* [ReactJS](https://pt-br.reactjs.org/) - O framework web usado
+* [ReactJS](https://pt-br.reactjs.org/) - A Biblioteca onde o projeto foi construído!
+* [The Movie Database](https://www.themoviedb.org/) - API utilizada!
 * [VSCode](https://code.visualstudio.com/) - O melhor de todos!
 * [Paciência](https://xn--pacincia-n1a.eu/) - Sempre é bom ter 
 
 ## ✒️ Autores
 
-Desenvolvido seguindo o tutorial do Bonieky Lacerda.
+Desenvolvido seguindo os aprendizados adquiridos no Curso FullStack da B7WEB.
 
 * **Bonieky Lacerda** - [B7WEB](https://b7web.com.br/fullstack)
 
 ## 🎁 Expressões de gratidão
 
 * Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺 
+* Me indique para um processo seletivo para Estágio 🏆 
 * Obrigado a todos que visitaram o projeto! 🤓.
 
 
